@@ -1,0 +1,56 @@
+.action-button {
+    margin: 10px 20px 10px 20px;
+    border: none;
+    min-width: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: none;
+    color: #9399A1;
+
+    :hover>& {
+        cursor: pointer;
+    }
+}
+
+.active {
+    //styleName: H3/Semibold;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #0A4875
+}
+
+.button-proceed {
+    width: 160px;
+    height: 38px;
+    left: 640px;
+    background: #0A4875;
+    color: #FFFF;
+    /* Dark Blue/Primary */
+    border: 1px solid #0A4875;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 3%;
+}
+
+.button-save {
+    width: 160px;
+    height: 38px;
+    left: 640px;
+    background: #EBF9FA;
+    color: #3AC1CC;
+    /* Dark Blue/Primary */
+    border: 1px solid #3AC1CC;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 3%;
+}

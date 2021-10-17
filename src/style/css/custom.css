@@ -1,0 +1,505 @@
+.breadCrumb-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 920px) {
+    .customModal .modal-dialog-lg {
+        position: absolute !important;
+    }   
+}
+
+h5.expire-mobile {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.add-new-entry-mobile {
+    display: none;
+}
+
+.expiry-modal {
+    height: auto;
+    margin: 5px 5px 0 0;
+}
+
+.newentry-modal {
+    height: auto;
+    margin: 5px 5px 0 0;
+}
+
+.expireChipName {
+    padding-left: 10px !important; 
+    border: 1px solid #B2B7BC !important; 
+    padding: 0 10px !important; 
+    color: #121929 !important;
+    background: #FFF !important; 
+    overflow-wrap: break-word; 
+    margin: 0 15px;
+}
+
+@media screen and (min-width: 250px) and (max-width: 330px) {
+    .expireChipName {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 331px) and (max-width: 400px) {
+    .expireChipName {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 460px) {
+    .expireChipName {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 461px) and (max-width: 520px) {
+    .expireChipName {
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 521px) and (max-width: 610px) {
+    .expireChipName {
+        width: 380px;
+    }
+}
+
+@media screen and (min-width: 611px) and (max-width: 690px) {
+    .expireChipName {
+        width: 420px;
+    }
+}
+
+@media screen and (min-width: 691px) and (max-width: 750px) {
+    .expireChipName {
+        width: 480px;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 810px) {
+    .expireChipName {
+        width: 520px;
+    }
+}
+
+@media screen and (min-width: 811px) and (max-width: 850px) {
+    .expireChipName {
+        width: 580px;
+    }
+}
+
+
+@media screen and (min-width: 851px) and (max-width: 920px) {
+    .expireChipName {
+        width: 620px;
+    }
+}
+
+@media screen and (min-width: 921px) and (max-width: 1024px) {
+    .expireChipName {
+        max-width:800px;
+        min-width: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .expireChipName {
+        max-width:800px;
+        min-width: auto;
+    }
+}
+
+@media screen and (max-height: 320px)  {
+    .expiry-modal {
+        height: 85vh;
+        overflow-y: scroll !important;
+        margin: 5px 5px 0 0;
+    }
+    .newentry-modal {
+        height: 85vh;
+        overflow-y: scroll !important;
+        margin: 5px 5px 0 0;
+    }
+}
+
+
+@media screen and (max-height: 320px) and (orientation: landscape)  {
+    .expiry-modal {
+        height: 100vh;
+        overflow-y: scroll !important;
+        margin: 5px 5px 0 0;
+    }
+    .newentry-modal {
+        height: 100vh;
+        overflow-y: scroll !important;
+        margin: 5px 5px 0 0;
+    }
+}
+
+@media screen and (min-height: 321px) and (max-height: 570px) and (orientation: portrait) {
+    .expiry-modal {
+        height: 70vh;
+        overflow-y: scroll !important;
+        margin: 5px 5px 0 0;
+    }
+    .newentry-modal {
+        height: 70vh;
+        overflow-y: scroll !important;
+        margin: 5px 5px 0 0;
+    }
+}
+
+@media screen and (min-height: 321px) and (max-height: 570px) and (orientation: landscape) {
+    .expiry-modal {
+        height: 85vh;
+        overflow-y: scroll !important;
+        margin: 5px 5px 35px 0;
+    }
+    .newentry-modal {
+        height: 85vh;
+        overflow-y: scroll !important;
+        margin: 5px 5px 35px 0;
+    }
+}
+
+@media screen and (min-height: 720px) and (max-height: 800px) and (orientation: portrait) {
+    .expiry-modal {
+        overflow-y: hidden !important;
+    }
+    .newentry-modal {
+        height: 70vh;
+        overflow-y: scroll;
+    }
+} 
+
+
+@media screen and (min-height: 570px) and (max-height: 640px) and (orientation: portrait) {
+    .expiry-modal {
+        height: 70vh;
+        overflow-y: scroll;
+    }
+    .newentry-modal {
+        height: 70vh;
+        overflow-y: scroll;
+    }
+} 
+
+@media screen and (min-height: 641px) and (max-height: 710px) and (orientation: portrait){
+    .expiry-modal {
+        height: 60vh;
+        overflow-y: scroll;
+    }
+    .newentry-modal {
+        height: 60vh;
+        overflow-y: scroll;
+    }
+} 
+
+
+@media screen and (min-height: 720px) and (max-height: 800px) and (orientation: landscape) {
+    .expiry-modal {
+        overflow-y: hidden !important;
+    }
+    .newentry-modal {
+        overflow-y: hidden !important;
+    }
+} 
+
+
+@media screen and (min-height: 570px) and (max-height: 640px) and (orientation: landscape) {
+    .expiry-modal {
+        height: 70vh;
+        overflow-y: scroll;
+    }
+    .newentry-modal {
+        height: 70vh;
+        overflow-y: scroll;
+    }
+} 
+
+@media screen and (min-height: 641px) and (max-height: 710px) and (orientation: landscape) {
+    .expiry-modal {
+        height: 60vh;
+        overflow-y: scroll;
+    }
+    .newentry-modal {
+        height: 60vh;
+        overflow-y: scroll;
+    }
+} 
+
+@media screen and (min-height: 801px) and (max-height: 820px) and (orientation: portrait) {
+    .expiry-modal {
+        height: 70vh;
+        overflow-y: scroll;
+    }
+    .newentry-modal {
+        height: 70vh;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (min-height: 820px) and (max-height: 896px) {
+    .expiry-modal {
+        overflow-y: hidden !important;
+    }
+    .newentry-modal {
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (min-height: 897px) and (max-height: 901px) {
+    .expiry-modal {
+        overflow-y: hidden !important;
+    }
+    .newentry-modal {
+        overflow-y: hidden !important;
+    }
+}
+
+@media screen and (min-height: 902px) and (max-height: 960px) {
+    .expiry-modal {
+        overflow-y: hidden !important;
+    }
+    .newentry-modal {
+        overflow-y: hidden !important;
+    }
+} 
+
+@media screen and (min-height: 961px) and (max-height: 1024) {
+    .expiry-modal {
+        overflow-y: hidden !important;
+    }
+    .newentry-modal {
+        height: auto;
+        overflow-y: hidden !important;
+    }
+} 
+
+@media screen and (min-height: 1024px){
+    .expiry-modal {
+        overflow-y: hidden !important;
+    }
+    .newentry-modal {
+        overflow-y: hidden !important;
+    }
+} 
+
+@media (max-width: 1024px) {
+    .breadCrumb-mobile {
+        display: block;
+        color: #3AC1CC;
+    }
+    .breadCrumb-desktop {
+        display: none;
+    }
+    
+    h5.expire-mobile {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    .add-new-entry-mobile {
+        position: absolute;
+        bottom: 5px;
+        z-index: 9999;
+        right:0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 320px) {
+    h5.expire-mobile {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .dateRange-headerTitle {
+        font-size: 14px !important;
+        margin: 8px 0px !important;
+    }
+    .dateRange-headerToggles {
+        font-size: 14px !important;
+        font-weight: 600;
+    }
+    .rdrMonth {
+        padding: 0 0.833em 1.666em 0em;
+    }
+}
+
+@media (max-width: 319px) {
+    h5.expire-mobile {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .dateRange-headerTitle {
+        font-size: 12px !important;        
+        margin: 8px 0px !important;
+    }
+    .dateRange-headerToggles {
+        font-size: 14px !important;
+        font-weight: 600;
+    }
+    .rdrMonth {
+        padding: 0 0.833em 1.666em 0em;
+    }
+}
+
+.dateRange-headerTitle {
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-style: normal !important;
+    margin: 5px 5px;
+}
+
+.dateRange-headerToggles {
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-style: normal !important;
+    margin: 5px 0px !important;
+}
+
+#scroll-wrapper
+{
+	margin: auto;
+}
+
+.scrollbar
+{
+    margin-right: 3px;
+	overflow-y: scroll;
+}
+
+/*
+ *  STYLE 1
+ */
+
+ .scrollbar::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+     box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.1);
+     border-radius: 10px;
+     background-color: transparent;
+ }
+ 
+ .scrollbar::-webkit-scrollbar
+ {
+     width: 8px;
+     background-color: transparent;
+ }
+ 
+ .scrollbar::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+     box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+     background-color: #f2f2f2;
+ }
+
+ .custom-header-title {
+    text-overflow: ellipsis;
+    line-height: 1.625;
+    width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 5px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+ }
+
+ @media only screen and (min-width: 551px) and (max-width: 750px) {
+    .custom-header-title {
+        width: 450px;
+     }
+ }
+ 
+ @media only screen and (min-width: 450px) and (max-width: 550px) {
+    .custom-header-title {
+        width: 300px;
+     }
+ }
+
+ @media only screen and (max-width: 449px) {
+    .custom-header-title {
+        width: 200px;
+     }
+ }
+
+ @media only screen and (max-width: 315px) {
+    .custom-header-title {
+        width: 150px;
+     }
+ }
+
+ @media only screen and (max-width: 250px) {
+    .custom-header-title {
+        width: 100px;
+     }
+ }
+
+ .expire-createdBy {
+     display: flex;
+ }
+
+ .expire-createdOn {
+    display: flex;
+}
+
+@media only screen and (min-width: 551px) and (max-width: 750px) {
+    .expire-createdOn {
+        display: inline;
+    }
+
+    .expire-createdBy {
+        display: inline;
+    }
+ }
+ 
+ @media only screen and (min-width: 450px) and (max-width: 550px) {
+    .expire-createdOn {
+        display: inline;
+    }
+
+    .expire-createdBy {
+        display: inline;
+    }
+ }
+
+ @media only screen and (min-width: 250px) and (max-width: 449px) {
+    .expire-createdOn {
+        display: inline;
+    }
+
+    .expire-createdBy {
+        display: inline;
+    }
+ }
+
+ .dualDecision li.active a {
+    color: #0A4875 !important;
+    font-size: 16px;
+}
+
+.dual_decision_select_all {
+    color: #0A4875;
+    text-decoration-line: underline;
+    font-weight: 600;
+}

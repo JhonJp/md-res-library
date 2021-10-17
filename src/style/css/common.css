@@ -1,0 +1,12 @@
+.accordion-profile {
+    max-height: 324px !important;
+}
+
+.accordion-common-expand {
+    overflow: visible !important;
+    max-height: max-content !important;
+}
+
+.accordion-common-collapsed {
+    overflow: hidden !important;
+}

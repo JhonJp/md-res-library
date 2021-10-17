@@ -1,0 +1,135 @@
+{
+  "name": "mb-ready-form",
+  "version": "0.0.1",
+  "description": "A library that has usable components ready for mobile",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "private": true,
+  "dependencies": {
+    "@date-io/moment": "^1.3.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "^3.3.10",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@types/react-phone-number-input": "^3.0.7",
+    "bootstrap": "^5.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "precss": "^4.0.0",
+    "react-circular-progressbar": "^2.0.4",
+    "react-date-range": "^1.1.3",
+    "react-dropzone": "^11.3.2",
+    "react-helmet": "^6.1.0",
+    "react-phone-number-input": "^3.1.23",
+    "sass": "^1.35.1",
+    "styled-components": "^5.0.1"
+  },
+  "peerDependencies": {
+    "@date-io/moment": "^1.3.13",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "moment": "^2.29.1",
+    "precss": "^4.0.0",
+    "react-bootstrap": "^1.6.0",
+    "react-data-table-component": "^6.11.5",
+    "react-date-range": "^1.1.3",
+    "react-dropzone": "^11.3.2",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "ts-build": "tsc --project ./ --module commonjs",
+    "b-lib": "rollup -c && npm pack",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [{
+      "files": [
+        "**/*.stories.*"
+      ],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
+      }
+    }]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-image": "^2.0.6",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@storybook/addon-actions": "6.2.9",
+    "@storybook/addon-essentials": "6.2.9",
+    "@storybook/addon-links": "6.2.9",
+    "@storybook/node-logger": "6.2.9",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "6.2.9",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.170",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.0",
+    "autoprefixer": "^10.2.6",
+    "axios": "^0.21.1",
+    "date-fns": "^2.0.0-beta.5",
+    "moment": "^2.29.1",
+    "postcss": "^8.3.0",
+    "postcss-import": "^14.0.2",
+    "react": "^17.0.2",
+    "react-advanced-form": "^1.7.2",
+    "react-advanced-form-addons": "^1.3.3",
+    "react-bootstrap": "^1.6.0",
+    "react-checkbox-tree": "^1.6.0",
+    "react-data-table-component": "^6.11.5",
+    "react-date-range": "^1.1.3",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-scripts": "4.0.3",
+    "rollup": "^2.50.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-import-css": "^2.0.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-scss": "^2.6.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tsc": "^2.0.3",
+    "tslib": "^2.2.0",
+    "typescript": "4.2.4",
+    "web-vitals": "^1.0.1"
+  },
+  "typings": "dist/index.d.ts",
+  "typescript": {
+    "definition": "dist/index.d.ts",
+    "reactDocgen": "none"
+  }
+}

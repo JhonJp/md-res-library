@@ -1,0 +1,54 @@
+.circle {
+    border-radius: 50%;
+    background: #C4ECF0;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.circle .circle {
+    position: relative;
+    border-radius: 50%;
+    background: #3AC1CC;
+    color: #FFFF;
+}
+
+.circle2 {
+    border-radius: 50%;
+    background: #C4ECF0;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.circle2 .circle2 {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 50%;
+    color: #3AC1CC;
+}
+
+.circle3 {
+    border-radius: 50%;
+    background: #595e6c;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.circle4 {
+    border-radius: 50%;
+    background: #9399A1;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.circle4 .circle4 {
+    border-radius: 50%;
+    background: #9399A1;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}

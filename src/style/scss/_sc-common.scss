@@ -1,0 +1,233 @@
+.card-container {
+    flex-grow: 1;
+    margin: 20px;
+}
+
+.inline-centered {
+    display: flex;
+    align-items: center;
+}
+
+.inner-card {
+    padding: 10px;
+    min-width: 200px;
+
+    .title {
+        height: auto;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 130%;
+        color: #9399A1;
+    }
+
+    .value {
+        height: auto;
+        font-weight: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        color: #121929;
+    }
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 30px);
+
+    hr {
+        height: auto !important;
+    }
+
+}
+
+.user-profile {
+    margin: 20px;
+    margin-right: 10px;
+    min-width: 240px;
+    display: block;
+    justify-content: center;
+    border: 2px;
+    border-color: #9399A1;
+
+    .image-style {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: #0A4875;
+
+        label {
+            font-size: 67px;
+            color: #FFFFFF;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+
+    .text {
+        padding-top: 10px;
+        font-family: 'univia_proregular';
+        font-weight: 350;
+        font-size: 32px;
+        line-height: 48px;
+        color: #1F2737;
+        text-align: center;
+    }
+}
+
+#edit-icon {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#image-edit {
+    display: grid;
+    justify-content: center;
+
+    .edit-pencil-icon {
+        width: 100px;
+        display: grid;
+        justify-content: flex-end;
+    }
+}
+
+
+#price-container {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: 700px;
+}
+
+#product-card {
+    font-family: 'univia_proregular';
+    padding: 25px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A4875;
+
+    .product-title {
+        display: flex;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 20px;
+
+        .edit {
+            color: #0A4875;
+            background-color: #FFFFFF;
+        }
+    }
+
+    .price {
+        font-size: 32px;
+        font-weight: 350;
+        line-height: 48px;
+    }
+}
+
+.feature-card {
+    font-family: 'Source Sans Pro', sans-serif;
+    //styleName: H3/Regular;
+    padding-left: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.product-pricing-modal {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px;
+
+    .container {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .title {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+
+    }
+
+    .price {
+        font-family: univia_proregular;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+    }
+
+}
+
+.common-title {
+    //styleName: Body/Semibold;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.image-replace {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #0A4875;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.no-record-found {
+    width: calc(100% - 30px) !important;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.table-loading {
+    height: calc(100vh - 400px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

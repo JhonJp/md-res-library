@@ -1,0 +1,13 @@
+.iconBackground {
+    background: #FFFF;
+    border-radius: 50%;
+}
+
+.small {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.iconBackground text {
+    font-weight: bold;
+}

@@ -1,0 +1,17 @@
+$primary: #3AC1CC;
+$neutral: #B2B7BC;
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/variables';
+
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/reboot';
+@import 'bootstrap/scss/type';
+
+@import 'bootstrap/scss/forms';
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/bootstrap-grid.scss';
+
+$theme-colors: (primary: $primary,
+  neutral: $neutral);
